@@ -1,3 +1,15 @@
+Eric's changes
+--------------
+- Disable Pure theme's title text for a clean titlebar
+```bash
+prompt_pure_set_title() {
+    ...
+    print -n '\e]0; \a'
+    return
+}
+```
+
+
 Prezto — Instantly Awesome Zsh
 ==============================
 
